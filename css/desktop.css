@@ -24,7 +24,6 @@ table, tr, td, th {
 }
 
 
-
 #table_bio{
     width:865px;
     margin-top: -40px;
@@ -33,7 +32,7 @@ table, tr, td, th {
 
 #table_bio tr th {
     height: 50px;
-    font-family: Times,san-serif;
+    font-family: times, san-serif;
     font-size: 18px;
     text-align: left;
     border-style: solid;
@@ -41,11 +40,11 @@ table, tr, td, th {
 }
 
 #table_bio tr td {
-    font-family: Times, san-serif;
+    font-family: times, san-serif;
     font-size: 14px;
     text-align: left;
     padding: 5px;
-    margin: 0px;
+    margin: 0;
     padding-left: 25px;
 }
 
@@ -59,7 +58,8 @@ table, tr, td, th {
 
 #youtube_box{
     display: inline-block;
-    padding-left: 75px;
+    left: 450px;
+    top: 0;
 
 }
 
@@ -85,14 +85,14 @@ h3 {
     font-weight: bold;
 }
 
-p {font-family: Trebuchet MS, Helvetica, sans-serif
+p {font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     color: #605a51;
 
 }
 
 img {
-    border: 0px
+    border: 0px;
 }
 
 
@@ -106,7 +106,7 @@ img {
 
 #top_banner {
         width: 960px;
-        height: 265px;
+        height: 300px;
         background-image: url('../images/foundation/brown_black_header.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -128,10 +128,10 @@ img {
 #middle_background {
         width: 960px;
         height: 700px;
-        background-color; #eae7d4;
+        background-color: #eae7d4;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100%
+        background-size: 100%;
 
 }
 
@@ -271,9 +271,9 @@ img {
 
 #navbar {
     list-style:none;
-    padding-top: 0px;
-    margin-top: -5px;
-    padding-left: 520px;
+    padding-top: 0;
+    margin-top: 12px;
+    padding-left: 480px;
     font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
     font-size: 16px;
     color: #FFFFFF;
@@ -542,7 +542,7 @@ img {
     column-rule-style:solid;
     column-rule-color:#605a51;
     column-fill: balance;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     color: #605a51;
 }
@@ -754,7 +754,7 @@ div.bio_pic {
     column-count: 2;
     column-gap: 2px;
     column-fill: balance;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     color: #605a51;
 
@@ -778,7 +778,7 @@ div.bio_pic {
     width:485px;
     float: right;
     padding-right: 15px;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     text-align: left;
     color: #605a51;
@@ -831,7 +831,7 @@ div.bio_pic {
     column-count: 2;
     column-gap: 2px;
     column-fill: balance;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     color: #605a51;
 
@@ -867,7 +867,7 @@ div.bio_pic {
 #twitter_feed{
     position:absolute;
     left:515px;
-    top:215px;}
+    top:215px;
 }
 
 
@@ -909,7 +909,7 @@ div.bio_pic {
     top: 75px;
     float: right;
     padding-right: -10px;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 21px;
     color: #FFFFFF;
 
@@ -928,7 +928,7 @@ div.bio_pic {
     float: left;
     padding-top: -45px;
     padding-left: 35px;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
     color: #605a51;
@@ -946,7 +946,7 @@ div.bio_pic {
     float: left;
     padding-top: -75px;
     padding-left: 35px;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
     color: #605a51;
@@ -964,7 +964,7 @@ div.bio_pic {
     clear:left;
     padding-top: 100px;
     padding-left: 35px;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
     color: #605a51;
@@ -981,7 +981,7 @@ div.bio_pic {
     float: left;
     padding-top: 100px;
     padding-left: 35px;
-    font-family: Trebuchet MS, Helvetica, sans-serif
+    font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 12px;
     text-align: center;
     color: #605a51;
@@ -992,6 +992,8 @@ div.bio_pic {
     align:center;
 
 }
+
+
 
 
 
